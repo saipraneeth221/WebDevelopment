@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #container{
+            margin-top: 5%;
+            margin-left: 30%;
+            width: 400px;
+            height: 400px;
+            background-image: url(../Document/nandi_hills.jpg);
+            background-size: 350px;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: width 0.5s,margin-left 0.5s,background-position 0.5s;
+        }
+        #container:hover{
+            width: 620px;
+            margin-left: 20%;
+            background-position: center left;
+        }
+        #container:hover #heading{
+            text-align: center;
+            font-weight: bold;
+            color: chocolate;
+            font-size: 30px;
+        }
+        h1{
+            width: 40%;
+            float: right;
+            padding-top: 40px;
+            text-align: center;
+            color: transparent;
+        }
+        p{
+            width: 40%;
+            float: right;
+            margin-top: 20px;
+            margin-left: 150px;
+            padding: 10px;
+            text-align: justify;
+            color: transparent;
+        }
+        #container:hover h1{
+            color: peru;
+        }
+        #container:hover p{
+            color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset id="container">
+        <legend id="heading">Fav_Place</legend>
+        <h1>NANDI_HILLS</h1>
+        <p>The climate at the top of the hill made it of interest to horticulturists. 
+            Several species of plant were introduced into an experimental garden. 
+            Firminger's manual notes that several species of Anona 
+            were grown at this garden and also notes the peculiarity of Hypericum mysorense</p>
+    </fieldset>
+</body>
+</html>
